@@ -1,0 +1,54 @@
+footer{
+    background: #333333
+}
+footer>div.container{
+    padding-top: 100px
+}
+footer>div>div>div>ul>li>img{
+    width: 45px;
+    height: 48px;
+}
+footer>div>div>div>ul>li>a>p{
+    color: #DDDDDD ;
+}
+footer>div>div>div>ul>li>a>p:hover{
+    color: #31C27C;text-decoration: none;
+}
+footer>div>div>div>ul>li>p{
+    color: #DDDDDD ;
+}
+footer>div>div>div>ul>li>p:hover{
+    color: #31C27C;
+    cursor: pointer;
+}
+footer>div>div:nth-child(1)>div:nth-child(3)>div>ul>li>a{
+    color:#DDDDDD;
+}
+footer>div>div:nth-child(1)>div:nth-child(3)>div>ul>li>a:hover{
+    color: #31C27C;
+    text-decoration: none;
+}
+footer>div>div:nth-child(2)>div>ul>li>a{
+    color: #DDDDDD;
+}
+footer>div>div:nth-child(2)>div>ul>li>a:hover{
+    color: #31C27C;text-decoration: none;
+}
+
+#footer>p{
+    text-align: center;
+    color: white;
+}
+#footer>p>a{
+    color:#DDDDDD;
+}
+
+#footer>p>a:hover{
+    color: #31C27C;
+    text-decoration: none;
+}
+
+.imgI{
+    width: 45px;
+    height: 48px
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/playMusic.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title></title>
+    <style></style>
+</head>
+<body>
+    <!--头部-->
+    <header id="header"></header>
+    <!--主体部分-->
+    <section class="container">
+      <div class="container d-flex justify-content-start">
+        <!--左边 QQ音乐巅峰榜-->
+        <div class="pt-5">
+            <ul class="list-unstyled">
+                <li class="pt-3 pb-3 border-bottom">QQ音乐巅峰榜</li>
+                <li class="mt-2 bgC"><a href="#" class="fontC">巅峰榜·流行指数</a></li>
+                <li><a href="#">巅峰榜·热歌</a></li>
+                <li><a href="#">巅峰榜·新歌</a></li>
+                <li><a href="#">江小白YOLO·巅峰榜·中国新说唱</a></li>
+                <li><a href="#">巅峰榜·2018中国好声音</a></li>
+                <li><a href="#">巅峰榜·网络歌曲</a></li>
+                <li><a href="#">巅峰榜·内地</a></li>
+                <li><a href="#">巅峰榜·港台</a></li>
+                <li><a href="#">巅峰榜·欧美</a></li>
+                <li><a href="#">巅峰榜·韩国</a></li>
+                <li><a href="#">巅峰榜·影视金曲</a></li>
+                <li><a href="#">巅峰榜·日本</a></li>
+                <li><a href="#">巅峰榜·腾讯音乐人原创榜</a></li>
+                <li><a href="#">巅峰榜·K歌金曲</a></li>
+                <li><a href="#">巅峰榜·MV</a></li>
+                <li class="border-bottom mt-3 pb-3">全球榜</li>
+                <li class="mt-2"><a href="#">美国公告牌榜</a></li>
+                <li><a href="#">美国iTunes榜</a></li>
+                <li><a href="#">韩国Mnet榜</a></li>
+                <li><a href="#">英国UK榜</a></li>
+                <li><a href="#">日本工信榜</a></li>
+                <li><a href="#">香港电台榜</a></li>
+                <li><a href="#">香港商台榜</a></li>
+                <li><a href="#">台湾Hito中文榜</a></li>
+            </ul>    
+        </div>
+        <!--右边 歌单-->
+        <div id="main">
+            <!--导航-->
+            <nav class="">
+                <ul class="list-unstyled pt-5 pl-3">
+                    <li class="pt-2">巅峰榜·流行指数</li>
+                    <li class="pl-3 pt-3">2018-10-08</li>
+                    <li class="pl-3 pt-3"><a href="#">榜单规则</a></li>
+                </ul>
+            </nav>
+            <!--播放全部等按钮-->
+            <ul class="list-unstyled">
+                <li class="ml-3" >
+                   <a href="#" class="bgG">
+                        <div>
+                            <img src="img/icon_sprite.png">
+                        </div>
+                        <span class="ml-2 fontC">播放全部</span>
+                   </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="img/icon_sprite.png">
+                        </div>
+                        <span class="ml-2">添加到</span>
+                    </a>
+                 </li>
+                 <li>
+                    <a href="#">
+                        <div>
+                            <img src="img/icon_sprite.png">
+                        </div>
+                        <span class="ml-2">下载</span>
+                        </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="img/icon_sprite.png">
+                        </div>
+                        <span class="ml-2">批量操作</span>
+                    </a>                     
+                </li>
+                <li>
+                    <a href="#">
+                        <div>
+                            <img src="img/icon_sprite.png">
+                        </div>
+                        <span class="ml-2">评论(12212212)</span>
+                    </a>                     
+                </li>
+            </ul>   
+            <!--歌单 歌手 时长-->
+            <ul class="list-unstyled m-0">
+                <li>歌曲</li>
+                <li>歌手</li>
+                <li>时长</li>
+            </ul>
+            <!--歌曲内容 one-->
+            <div class="music-menu mt-3" id="one" v-for="p in res">
+                <div>
+                    <span>{{p.paimin}}</span>
+                    <div class="ml-3 mt-3">
+                        <div>
+                            <img src="img/icon_rank.png">       
+                        </div>
+                        <i>{{p.i}}%</i>
+                    </div>
+                </div>
+                <!--歌曲-->
+                <div class="music-O">
+                    <a href="#">
+                        <img src="./img/small1.jpg" class="img">
+                        <span>{{p.music}}</span>
+                    </a>
+                    <div class="positionR">
+                        <img src="./img/icon_sprite.png" class="positionA">
+                    </div>
+                    <div class="positionR">
+                        <a href="#" class="positionA1">
+                            <img src="./img/icon_sprite.png">
+                        </a>
+                    </div>         
+                </div>
+                <!--隐藏按钮 灰色-->
+                <ul class="hidden">
+                    <li class="first-li"><a href="#"><img src="img/icon_list_menu.png"></a></li>
+                    <li class="tow-li"><a href="#"><img src="img/icon_list_menu.png"></a></li>
+                    <li class="three-li"><a href="#"><img src="img/icon_list_menu.png"></a></li>
+                    <li class="fore-li"><a href="#"><img src="img/icon_list_menu.png"></a></li>
+                </ul>
+                <!--隐藏按钮 绿色-->
+                <ul class="greenBtn">
+                    <li class="greenBtn-one"><a href="#"><img src="img/icon_list_menu.png" alt=""></a></li>
+                    <li class="greenBtn-two"><a href="#"><img src="img/icon_list_menu.png"></a></li>
+                    <li class="greenBtn-thr"><a href="#"><img src="img/icon_list_menu.png"></a></li>
+                    <li class="greenBtn-for"><a href="#"><img src="img/icon_list_menu.png"></a></li>
+                </ul>
+                <!--歌手-->
+                <a href="#">{{p.name}}</a> 
+                <!--时长-->
+                <span>{{p.time}}</span> 
+            </div>        
+        </div>
+      </div>
+    <!--1 2 3 4 下一页-->
+      <div>
+          <div class="bgG fontC">1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>></div>
+      </div>
+      <!--评论-->
+      <div>
+        <span>评论</span>
+        <span>共99999条评论</span>
+      </div>
+      <textarea name="" id="" cols="10" rows="10" placeholder="期待你的神评论..."></textarea>
+      <div class="">
+          <a herf="#" class="btn">评论</a>
+      </div>
+      <!--最新评论-->
+      <div>
+          <h6>最新评论<span>(2225659)</span></h6>
+          <ul>
+              <li>
+                  <div></div>
+                  <div>
+                    <a href="#">杨帆</a>
+                    <p>这首歌真的是很好听,</p>
+                    <span>2018.08.01</span>
+                  </div>
+                  <ul>
+                      <li>举报</li>
+                      <li>点赞</li>
+                      <li>消息</li>
+                  </ul>
+
+              </li>
+          </ul>
+          <ul>
+            <li>
+                <div></div>
+                <div>
+                  <a href="#">杨帆</a>
+                  <p>这首歌真的是很好听,</p>
+                  <span>2018.08.01</span>
+                </div>
+                <ul>
+                    <li>举报</li>
+                    <li>点赞</li>
+                    <li>消息</li>
+                </ul>
+
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <div></div>
+                <div>
+                  <a href="#">杨帆</a>
+                  <p>这首歌真的是很好听,</p>
+                  <span>2018.08.01</span>
+                </div>
+                <ul>
+                    <li>举报</li>
+                    <li>点赞</li>
+                    <li>消息</li>
+                </ul>
+
+            </li>
+        </ul>
+      </div>
+      
+    </section>
+    <!--尾部-->
+    <footer id="footer"></footer>
+    <script src="./js/jquery-1.11.3.js"></script>
+    <script src="js/vue.js"></script>
+    <script src="js/playMusic.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,395 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.music{
+    background: #31C27C;
+    font-size: 18px;
+    padding:25px;
+    color: white;
+}
+
+/*头部样式*/
+header>nav:first-child>ul>li>a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+}
+header>nav:first-child>ul:nth-child(2)>li>a{
+    font-size: 15px;
+}
+header>nav>ul:nth-child(2){
+    margin: auto;
+}
+header>nav:first-child>ul:first-child>li:nth-child(2){
+    background: #31C27C;
+    width: 90px;
+    height: 90px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+header>nav:first-child>ul>li>a:hover{
+    color: #31C27C;
+    text-decoration: none;
+}
+header>nav:first-child>ul:first-child>li:nth-child(9){
+    background: #31C27C;
+    padding: 10px 0;
+    margin-left: 10px;
+}
+header>nav:first-child>ul:first-child>li:nth-child(10){
+    padding: 10px 0;
+    border: 1px solid #DDDDDD;
+}
+header>nav:first-child>ul:first-child>li:nth-child(9)>a{
+    color: white;
+    font-size: 12px;
+    padding: 0rem 1rem;
+}
+header>nav:first-child>ul:first-child>li:nth-child(10)>a{
+    font-size: 12px;
+    padding: 0 1rem
+}
+
+/*主体部分样式*/
+.mainTitle{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 楷体;
+}
+section>div:nth-child(1)>div.container>ul>li>a{
+    color: #000000;    
+}
+
+section>div:nth-child(1)>div.container>ul>li:nth-child(1)>a{
+	color: #31C27C;
+}
+section>div>div.container>ul>li>a:hover{
+	color: #31C27C !important;
+    cursor: pointer;
+}
+/*卡片部分*/
+#card>div>a:hover{
+    display: block;
+	transform:scale(1.03) /*rotate(360deg)translate(-2px,-2px) */;
+	transition: all 1s linear;
+	opacity: 0.8;
+    cursor: pointer;
+}
+#card>div>div>a{
+	color: #000000;
+	text-decoration: none;
+}
+#card>div>div>a:hover{
+	color:#31C27C;
+}
+
+#card>div>a{
+    position: relative;
+}
+#card>div>a>img:nth-child(2){
+    position: absolute;
+    bottom: 30%;
+    right: 35%;/*70*/
+
+}
+
+section>div:nth-child(2)>div.container>ul>li>a{
+    color: #000000;
+}
+section>div:nth-child(2)>div.container>ul>li>a:hover{
+    color: #31C27C;
+    cursor: pointer;
+}
+section>div:nth-child(2)>div.container>ul>li:nth-child(2)>a{
+    color: #31C27C;
+}
+section>div:nth-child(2)>div.container>ul{
+    position: relative;
+}
+section>div:nth-child(2)>div.container>ul>a{
+    width: 130px;
+    height: 40px;
+    border: 1px solid #dddddd;
+    position: absolute;
+    left: 0px;
+    color: #000000;
+}
+section>div:nth-child(2)>div.container>ul>a:hover{
+    background: #dddddd;
+}
+/*新歌首发 轮播样式*/
+section>div:nth-child(2)>div.container>div:last-child>ul>li{
+    width: 350px;
+    height: 100px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+#newMusic>li>p{
+	position: absolute;
+	right: 20px;
+	top: 40px;
+}
+#newMusic>li>div>a:hover{
+	color:#31C27C !important;
+	text-decoration: none;
+}
+#newMusic>li>a>:hover{
+    transform: scale(1.05);
+    /*transform: scale3d(1,1,1);*/
+    transition: all 500ms linear ;
+}
+#newMusic>li>a{
+	position: relative;
+}
+#newMusic>li>a>img:last-child{
+	position: absolute;
+	right: 20px;
+	bottom: 30px;
+}
+/*新碟首发*/
+section>div:nth-child(4)>div.container>ul>li>a{
+    color: #000000;
+}
+section>div:nth-child(4)>div.container>ul>li:first-child>a{
+    color: #31C27C;
+}
+section>div:nth-child(4)>div.container>ul{
+    position: relative;
+}
+section>div:nth-child(4)>div.container>ul>a{
+    position: absolute;
+    right: 0px;
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 楷体;
+}
+section>div:nth-child(4)>div.container>ul>a:hover{
+    color: #31C27C !important;
+    cursor: pointer;
+}
+section>div:nth-child(4)>div.container>ul>li>a:hover{
+    color: #31C27C;
+    cursor: pointer;
+}
+/*第一组卡片*/
+#cardGoup>div.card>div{
+    position: relative;
+}
+#cardGoup>div.card>div>a{
+     position: absolute;
+     left: 0px;
+     color: #000000 !important;	
+ }
+ #cardGoup>div.card>div>p{
+     position: absolute;
+     left: 0px;
+     top: 25px;
+ }
+#cardGoup>div.card>div>a:hover{
+    color: #31C27C !important;
+    text-decoration: none;
+}
+
+#cardGoup>div.card>a>img:last-child{
+    position: absolute;
+    top:50%;
+    bottom: 50%;
+    margin-left: -40px;
+    margin-top:-40px ;
+    opacity: 1;
+}
+/*第二组卡片*/
+#cardGoup2>div.card>div{
+    position: relative;
+}
+#cardGoup2>div.card>div>a{
+     position: absolute;
+     left: 0px;
+     color: #000000 !important;
+ }
+ #cardGoup2>div.card>div>p{
+     position: absolute;
+     left: 0px;
+     top: 25px;
+ }
+#cardGoup2>div.card>div>a:hover{
+    color: #31C27C !important;
+    text-decoration: none;
+}
+
+#cardGoup2>div.card>a>img:last-child{
+    position: absolute;
+    top:50%;
+    bottom: 50%;
+    margin-left: -40px;
+    margin-top:-40px ;
+}
+/*卡片的动画效果*/
+#cardGoup>div>a:hover{
+ 
+   /* transform:scale(1.03)rotate(360deg)translate(-2px,-2px) */
+    transform: rotate3D(1,1,0,360deg);
+    transition: all 1s linear;
+    opacity: 0.8;  
+}
+#cardGoup2>div>a:hover{
+     /*transform:scale(1.03)rotate(360deg)translate(-2px,-2px) */
+    transform: rotate3D(1,1,0,-30deg);
+    transition: all 1s linear;
+    opacity: 0.8;
+    box-shadow: 3px 11px 10px 1px #a5a1a1;
+}
+/*排行榜*/
+section>div:nth-child(5)>div>div:first-child{
+	position: relative;
+}
+section>div:nth-child(5)>div>div:first-child>a{
+	color: #000000;
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+	text-decoration: none;
+	font-size: 1rem;
+}
+section>div:nth-child(5)>div>div:first-child>a:hover{
+	color: #31C27C;
+}
+
+.l-left>div{
+	position: absolute;
+	bottom: 50px;
+	left: 50px;
+}
+.l-right>div{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+
+.l-left>div>ul>li>a{
+	text-decoration: none;
+	color:white;
+	text-align: start;
+}
+.l-right>div>ul>li>a{
+    text-decoration: none;
+    color:white;
+    text-align: start;
+}
+.l-boss{
+    position: relative;
+}
+.l-left{
+	position: relative;
+    box-shadow: 3px 11px 10px 1px #a5a1a1;
+}
+
+.l-right{
+    position: absolute;
+    top: 0;
+    left: 160px;
+	transform: rotate3D(0,1,0,90deg) translateZ(-112px);
+}
+
+.l-boss:hover .l-left{
+    transform: rotate3D(0,1,0,-90deg);
+    transition: all .3s linear;
+    box-shadow: 0px 0px 0px 0px #a5a1a1;
+}
+.l-boss:hover .l-right{
+    transform:translate(-160px) translateZ(200px);
+    transition: all .3s linear;
+    box-shadow: 3px 11px 10px 1px #a5a1a1;
+}
+/*MV*/
+section>div:nth-child(6)>div.container>ul>li>a{
+    color: #000000;
+}
+section>div:nth-child(6)>div.container>div>ul>li>img:first-child{
+    width: 224px;
+    height: 127px;
+}
+section>div:nth-child(6)>div.container>div>ul>li>div{
+    font-size: 15px;
+    font-family: 楷体;
+    font-weight: bold;
+    text-align: start;
+}
+section>div:nth-child(6)>div.container>div>ul>li>div>a:hover{
+    color:#31C27C !important;
+    text-decoration: none;
+}
+section>div:nth-child(6)>div.container>div>ul>li{
+    position: relative;
+}
+section>div:nth-child(6)>div.container>div>ul>li>img:nth-child(2){
+    position: absolute;
+    top: 30px;
+    left: auto;
+    margin-left: -30px; 
+}
+section>div:nth-child(6)>div.container>div>ul>li>img:first-child:hover{
+    transform: scale(1.05);
+    transition: all 500ms linear ;  
+    cursor: pointer;
+}
+/*尾部*/
+footer{
+    background: #333333
+}
+footer>div.container{
+    padding-top: 100px
+}
+footer>div>div>div>ul>li>img{
+	width: 45px;
+	height: 48px;
+}
+footer>div>div>div>ul>li>a>p{
+	color: #DDDDDD ;
+}
+footer>div>div>div>ul>li>a>p:hover{
+	color: #31C27C;text-decoration: none;
+}
+footer>div>div>div>ul>li>p{
+	color: #DDDDDD ;
+}
+footer>div>div>div>ul>li>p:hover{
+	color: #31C27C;
+	cursor: pointer;
+}
+footer>div>div:nth-child(1)>div:nth-child(3)>div>ul>li>a{
+	color:#DDDDDD;
+}
+footer>div>div:nth-child(1)>div:nth-child(3)>div>ul>li>a:hover{
+        color: #31C27C;
+    text-decoration: none;
+}
+footer>div>div:nth-child(2)>div>ul>li>a{
+	color: #DDDDDD;
+}
+footer>div>div:nth-child(2)>div>ul>li>a:hover{
+	color: #31C27C;text-decoration: none;
+}
+
+/*最底部*/
+#footer>p{
+    text-align: center;
+    color: white;
+}
+#footer>p>a{
+    color:#DDDDDD;
+    text-decoration: none;
+}
+#footer>p>a:hover{
+    color: #31C27C;
+    text-decoration: none;
+}
+
+.imgI{
+    width: 45px;
+    height: 48px
+}

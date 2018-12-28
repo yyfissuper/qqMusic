@@ -1,0 +1,468 @@
+section.bg{
+    background-image: linear-gradient(to bottom,#F5F5F5,#FFFFFF);
+}
+div.container>div:nth-child(1)>ul{
+    border: 1px solid #DDDDDD;
+    width: 180px;
+}
+div.container>div:nth-child(1)>ul>li{
+    padding: 10px 20px;
+    font-size: 15px;
+}
+div.container>div:nth-child(1)>ul>li>a{
+    color:#000000;
+    text-decoration: none;
+}
+div.container>div:nth-child(1)>ul>li>a:hover{
+    color:#31C27C;
+}
+div.container>div:nth-child(1)>ul>li:first-child{
+    font-size: 18px;
+}
+.bgC{
+    background-color:#31C27C;
+}
+.fontC{
+    color: #FFFFFF !important;
+}
+/*全球榜*/
+div.container>div:nth-child(1)>ul>li:nth-child(16){
+    font-size: 18px;
+}
+/*右侧*/
+div.container>div:nth-child(2)>nav>ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:flex-start;
+}
+div.container>div:nth-child(2)>nav>ul>li:nth-child(1){
+    font-size: 24px;
+}
+div.container>div:nth-child(2)>nav>ul>li:nth-child(2){
+    font-size: 16px;
+}
+div.container>div:nth-child(2)>nav>ul>li:nth-child(3)>a{
+    text-decoration: none;
+    color:#000000;
+    font-size: 14px;
+}
+div.container>div:nth-child(2)>nav>ul>li:nth-child(3)>a:hover{
+    color:#31C27C;
+}
+/*播放全部*/
+div.container>div:nth-child(2)>ul{
+    display: flex;
+    justify-content: flex-start;
+}
+.bgG{
+    background: #31C27C !important;    
+}
+div.container>div:nth-child(2)>ul>li:first-child>a{
+    display: flex;
+    flex-flow: row;
+    padding: 8px 5px;
+    margin: 0px 2px;
+    margin-top: 13px;
+    width: 123px;
+    text-decoration: none;
+}
+div.container>div:nth-child(2)>ul>li:first-child>a:hover{
+    background: #31C27C;
+    opacity: 0.8;
+}
+div.container>div:nth-child(2)>ul>li:first-child>a>div{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    overflow: hidden;
+    margin-top:3px; 
+}
+div.container>div:nth-child(2)>ul>li:first-child>a>div>img{
+    position: absolute;
+    left: -75px;
+    bottom: -101px;
+}
+div.container>div:nth-child(2)>ul>li:first-child>a>span{
+    font-size: 15px;
+    text-decoration: none;
+}
+/*添加到*/
+div.container>div:nth-child(2)>ul>li>a{
+    border: 1px solid #ddd;
+    background: #F5F5F5;
+    display: flex;
+    flex-flow: row;
+    padding: 8px 5px;
+    margin: 0px 2px;
+    margin-top: 13px;
+    width: 123px;
+    text-decoration: none;
+}
+div.container>div:nth-child(2)>ul>li>a:hover{
+    background: #dddddd;
+    opacity: 0.8;
+}
+div.container>div:nth-child(2)>ul>li:nth-child(2)>a>div{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: hidden;
+}
+div.container>div:nth-child(2)>ul>li:nth-child(2)>a>div>img{
+    position: absolute;
+    left: -18px;
+    top: 3px;
+}
+div.container>div:nth-child(2)>ul>li>a>span{
+    color: #000000;
+    font-size: 15px;
+    text-decoration: none;
+}
+/*下载*/
+div.container>div:nth-child(2)>ul>li:nth-child(3)>a>div{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: hidden;
+}
+div.container>div:nth-child(2)>ul>li:nth-child(3)>a>div>img{
+    position: absolute;
+    left: -38px;
+    bottom: -102px;
+}
+
+/*批量操作*/
+div.container>div:nth-child(2)>ul>li:nth-child(4)>a>div{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: hidden;
+}
+div.container>div:nth-child(2)>ul>li:nth-child(4)>a>div>img{
+    position: absolute;
+    left: -118px;
+    top: 3px;
+}
+/*评论*/
+div.container>div:nth-child(2)>ul>li:last-child>a{
+    width: 170px; 
+}
+div.container>div:nth-child(2)>ul>li:last-child>a>div{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    overflow: hidden;
+}
+div.container>div:nth-child(2)>ul>li:last-child>a>div>img{
+    position: absolute;
+    left:-138px;
+    top: -118px;
+}
+/*歌单 歌手 时长*/
+div.container>div:nth-child(2)>ul:nth-child(3){
+    margin-left: 50px;
+    background: #F9F8F9;
+}
+div.container>div:nth-child(2)>ul:nth-child(3)>li{
+    font-size: 14px;
+    color:gray;
+    margin-top:10px;
+}
+div.container>div:nth-child(2)>ul:nth-child(3)>li:nth-child(1){
+    width: 550px;
+    height: 30px;
+    margin-left: 140px;
+}
+div.container>div:nth-child(2)>ul:nth-child(3)>li:nth-child(2){
+    width: 196px;
+    height: 30px;
+    margin-left:10px; 
+}
+div.container>div:nth-child(2)>ul:nth-child(3)>li:nth-child(3){
+    width: 50px;
+    height: 30px;
+}
+/*歌曲内容*/
+.music-menu{
+    width:990px;
+    height:80px;
+    margin-left: 50px;
+    display: flex;
+    flex-flow: row;
+    position: relative;
+}
+div.music-menu>div>span{
+    font-size: 24px;
+    color:red;
+    margin-right: 10px;
+    padding-top: 20px;
+}   
+div.music-menu>div{
+    display: flex;
+    flex-flow: row;
+}
+div.music-menu>div>div>div{
+    position: relative;
+    width:20px;
+    height: 20px;
+    margin-top:8px; 
+    overflow: hidden;
+}
+div.music-menu>div>div>div>img{
+    position: absolute;
+    left: 1px;
+    bottom: 1px
+}
+div.music-menu>div>div{
+    position: relative;
+}
+div.music-menu>div>div>i{
+    color: gray;
+    font-size: 12px;
+    position: absolute;
+    left: -5px;
+    top: 20px;
+}   
+/*歌曲*/
+.music-O{
+    margin-left: 30px;   
+}
+.img{
+    width:80px;
+    height:80px;
+}
+.music-O>a{
+    text-decoration: none;
+}
+.music-O>a>span{
+    font-size: 14px;
+    color:#000000;
+    padding-left: 20px;
+}
+.music-O>a>span:hover{
+    color:#31C27C;
+}
+.positionR{
+    position: relative;
+    width:35px;
+    height: 16px;
+    margin-top: 2rem;
+    margin-left: 5px;
+    overflow: hidden;
+}
+.positionA{
+    position: absolute;
+    left:-80px;
+    bottom: -44px;
+}
+
+.positionA1{
+    position: absolute;
+    left: -39px;
+    bottom: -44px;
+}
+/*隐藏按钮*/
+.music-menu>ul{
+    list-style:none;
+    display: flex;
+    flex-flow:row;
+    margin-left:45px;
+}
+.music-menu>ul>li{
+    width: 36px;
+    height: 36px;
+    border-radius:50%; 
+    margin-top:1rem;
+    margin-left: 5px; 
+    
+}
+.first-li{
+    position: relative;
+    overflow: hidden;     
+}
+.first-li>a{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.tow-li{
+    position: relative;
+    overflow: hidden;
+}
+.tow-li>a{
+    position: absolute;
+    left: 0px;
+    top:-80px;
+}
+.three-li{
+    position: relative;
+    overflow: hidden;
+}
+.three-li>a{
+    position: absolute;
+    left: 0px;
+    bottom: -124px;
+}
+.fore-li{
+    position: relative;
+    overflow: hidden;
+}
+.fore-li>a{
+    position: absolute;
+    left: 0px;
+    top: -40px;
+}
+/*歌手*/
+
+.music-menu>a{
+    padding-top: 24px;
+    margin-left: 73px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000000;
+}
+.music-menu>a:hover{color: #31C27C}
+.music-menu>span{
+    padding-top:24px;
+    margin-left: 120px;
+    font-size: 12px; 
+}
+.greenBtn{
+    position: absolute;
+    left: 330px;       
+}
+.greenBtn>li{
+    width: 36px;
+    height: 36px;
+    border-radius:50%; 
+    margin-top:1rem;
+    margin-left: 5px;
+    background: #000000 ;
+   /**/  display: none; 
+}
+.greenBtn-one{
+    position: relative;
+    overflow: hidden;
+}
+.greenBtn-two{
+    position: relative;
+    overflow: hidden;
+}
+.greenBtn-thr{
+    position: relative;
+    overflow: hidden;
+}
+.greenBtn-for{
+    position: relative;
+    overflow: hidden;
+}
+.greenBtn-one>a{
+    position: absolute;
+    left:-40px;
+}
+.greenBtn-two>a{
+    position: absolute;
+    left: -40px;
+    top: -80px;
+}
+.greenBtn-thr>a{
+    position: absolute;
+    left: -40px;
+    bottom:-124px; 
+}
+.greenBtn-for>a{
+    position: absolute;
+    left: -40px;
+    top: -40px;
+}
+.marginL{
+    margin-left: -5px;
+}
+/*1 2 3 4 下一页*/
+section>div:nth-child(2){
+    display: flex;
+    flex-flow: row;
+    justify-content:center;
+    padding-left:100px; 
+}
+section>div:nth-child(2)>div{
+    width: 50px;
+    height: 50px;
+    margin-left:5px;    
+    padding-top:13px; 
+    padding-left: 20px;
+}
+/*评论*/
+section>div:nth-child(3){
+    margin-top: 100px;
+}
+section>div:nth-child(3)>span:first-child{
+    font-size: 32px;
+    padding-left: 240px;
+}
+section>div:nth-child(3)>span:last-child{
+    color: gray;
+}
+section>textarea{
+    margin-top:     10px;
+    margin-left: 240px;
+    width: 900px;
+    height: 100px;
+    border: 1px solid gray;
+    background: #ddd;
+    padding-left: 10px;
+}
+.btn{
+    background: #31C27C;
+    color:#fff !important;
+    padding: 3px 25px;
+    margin: 0;
+    font-size: 14px;    
+}
+.btn:hover{opacity: 0.8;}
+section>div:nth-child(5){display: flex;justify-content: flex-end;}
+section>div:nth-child(6){
+    display: flex;
+    margin-left: 240px;
+    flex-direction: column;
+    margin-top: 10px;
+}
+section>div:nth-child(6)>ul{
+    list-style: none;
+    margin-top: 10px;
+}
+section>div:nth-child(6)>ul>li{
+    border: 1px solid #aaa;
+    border-right:0;
+    border-left: 0;
+    display: flex;
+    padding: 15px;
+}
+section>div:nth-child(6)>ul>li>div:first-child{
+    width:50px;
+    height: 50px;
+    background: #000000;
+    border-radius: 50%;
+}
+section>div:nth-child(6)>ul>li>div:nth-child(2){
+    margin-left: 10px;
+}
+section>div:nth-child(6)>ul>li>div:nth-child(2)>a{
+    color: #aaa;
+    text-decoration: none;
+    font-size: 14px;
+}
+section>div:nth-child(6)>ul>li>div:nth-child(2)>a:hover{
+    color:#31C27C;
+}
+section>div:nth-child(6)>ul>li>div:nth-child(2)>span{color: #aaa;font-size: 14px}
+section>div:nth-child(6)>ul>li>ul{
+    display: flex;  
+    list-style: none;
+    padding-left: 400px;
+    padding-top: 70px;
+}
+section>div:nth-child(6)>ul>li>ul>li{
+    font-size: 15px;
+    margin-left: 20px;
+}
